@@ -17,5 +17,16 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+Freebie.create(item_name: 'hat', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'pen', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'shirt', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'sunglasses', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'mug', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'key caps', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'cup', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'binder', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'towel', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'gift card', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
+Freebie.create(item_name: 'fidget cube', value: rand(1..50), company_id: rand(1..4), dev_id: rand(1..4))
 
 puts "Seeding done!"
